@@ -1,0 +1,30 @@
+{
+  "name": "isometric-map",
+  "version": "0.1.0",
+  "description": "Convert (x,y,z) 3D coordinates to Isometric 2D coordinates",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesporter/isometric-map.git"
+  },
+  "keywords": [
+    "isometric",
+    "3D",
+    "2D",
+    "typescript"
+  ],
+  "author": "James Porter <james@amimetic.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesporter/isometric-map/issues"
+  },
+  "homepage": "https://github.com/jamesporter/isometric-map#readme",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
