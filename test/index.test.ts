@@ -1,4 +1,4 @@
-import isometricMap from "../index";
+import isometricMap from "../src/index";
 
 test("An example calculation", () => {
   const iso = isometricMap(2);
